@@ -4,18 +4,7 @@ const MetaToken = "METATOKENAQUIPLS";
 function EnviarMensajeWhastpapp(texto, numero) {
     texto = texto.toLowerCase();
 
-    if (texto.includes("amigo")) {
-        var data = JSON.stringify({
-            "messaging_product": "whatsapp",
-            "recipient_type": "individual",
-            "to": numero,
-            "type": "text",
-            "text": {
-                "preview_url": false,
-                "body": "🐼 Hola Amigo, ¿En qué puedo ayudarte?\n \n📌Por favor, ingresa un número #️⃣ para recibir información.\n \n1️⃣. Información de la UTA. ❔\n2️⃣. Ubicación del Saucache. 📍\n3️⃣. Plan de Estudio ICCI. 📄\n4️⃣. Música para informáticos. 🎧\n5️⃣. Video promocional. ⏯️\n6️⃣. Contactar con un representante. 🙋‍♂️\n7️⃣. Horario de Atención. 🕜"             
-            }
-        });
-    } else if (texto == "1") {
+    if (texto == "1") {
         // Sobre la UTA
         var data = JSON.stringify({
             "messaging_product": "whatsapp",
@@ -126,7 +115,7 @@ function EnviarMensajeWhastpapp(texto, numero) {
             "type": "text",
             "text": {
                 "preview_url": false,
-                "body": "🐼 Hola, ¿En qué puedo ayudarte?\n \n📌Por favor, ingresa un número #️⃣ para recibir información.\n \n1️⃣. Información de la UTA. ❔\n2️⃣. Ubicación del Saucache. 📍\n3️⃣. Plan de Estudio ICCI. 📄\n4️⃣. Música para informáticos. 🎧\n5️⃣. Video promocional. ⏯️\n6️⃣. Contactar con un representante. 🙋‍♂️\n7️⃣. Horario de Atención. 🕜" 
+                "body": "🐼 Hola, ¿En qué puedo ayudarte?\n \n📌Por favor, ingresa un número #️⃣ para recibir información.\n \n1️⃣. Información de la UTA. ❔\n2️⃣. Ubicación del Saucache. 📍\n3️⃣. Plan de Estudio ICCI. 📄\n4️⃣. Música para informáticos. 🎧\n5️⃣. Video promocional. ⏯️\n6️⃣. Contáctanos. 🙋‍♂️\n7️⃣. Horario de Atención. 🕜" 
             }
         });
     }
