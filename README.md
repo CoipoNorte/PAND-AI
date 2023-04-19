@@ -4,11 +4,11 @@ Un proyecto de JS que utiliza la API de WhatsApp junto a un chatbot, alojado en 
 
 ## Hola, soy CoipoNorte! 👋
 
-Me alegra que alguien este leyendo esto pues este proyecto nacio de un percance con una asignatura, basicamente fuimos expulsados de un grupo de trabajo y ahora estamos desarrollando esta API REST, estamos muy emocionados con esta oportunidad, esperamos puedas entender la documentacion, tratamos de dejar lo mas claro posible cada linea de codigo. Disfruta del proyecto!
+Me alegra que alguien esté leyendo esto, pues, este proyecto nació de un percance con una asignatura, básicamente fuimos expulsados de un grupo de trabajo y ahora estamos desarrollando esta API REST, estamos muy emocionados con esta oportunidad, esperamos puedas entender la documentación, tratamos de dejar lo más claro posible cada línea de código. ¡Disfruta de nuestro proyecto!
 
 atte: [@Christian Caceres](https://www.github.com/coiponorte)
 
-## Installation
+## Instalación
 
 Puedes clonar el repositorio utilizando git.
 ```bash
@@ -21,26 +21,26 @@ Luego puedes utilizar la powershell de Windows para instalar las dependencias de
 ```bash
   npm Install
 ```
-Posterior a eso deberas instalar los comandos de Fly.io para poder hacer uso del servidor.
+Posterior a eso deberás instalar los comandos de Fly.io para poder hacer uso del servidor.
 ```bash
   powershell -Command "iwr https://fly.io/install.ps1 -useb | iex"
 ```
-Ya finalizada la instalacion podras hacer uso de los comandos al reinicar la Terminal.
+Ya finalizada la instalación podrás hacer uso de los comandos al reiniciar la Terminal.
 
-Para subir su proyecto deberas utilizar dos comandos.
+Para subir su proyecto deberás utilizar dos comandos.
 ```bash
   flyctl launch
 ```
 ```bash
   flyctl deployd
 ```
-Recuerda cambiar a tus credenciales de META y Fly.io para no tener problemas pues los token caducan despues de 23 hrs.
-## Documentation
+Recuerda cambiar a tus credenciales de META y Fly.io para no tener problemas, pues, los tokens caducan después de 23 horas.
+## Documentación
 
-Este cocumento fue realizado por uno de los programadores encargados de testear la API y su funcionamiento, se trata de una guia para poder instalar, comprender la creacion y ejecutar el proyecto de manera local. Tambien se detalla el testeo a traves de Postman y la identificacion de valores claves para la integracion con la API de WhatsApp de META.
+Este documento fue realizado por uno de los programadores encargados de testear la API y su funcionamiento, se trata de una guía para poder instalar, comprender la creación y ejecutar el proyecto de manera local. También se detalla el testeo a través de Postman y la identificación de valores claves para la integración con la API de WhatsApp de META.
 [Documentation](https://docs.google.com/document/d/1vyC5cZOXWsAAHbduj-ibHxHdfdUy3SaB4C7dYt0avFg/edit?usp=sharing)
 
-## Authors
+## 
 
 - [@Christian Caceres](https://www.github.com/coiponorte)
 - [@Jose LeBlanc](https://www.github.com/)
