@@ -1,5 +1,5 @@
 const https = require("https");
-const MetaToken = "METATOKENAQUIPLS";
+const MetaToken = "EAAIjvGFqjmQBAEyHcJhecztMBlnpBRGlmVc0JzoWV1kguPAksicsQ5kE4zMi15mMfnduvkpbBtdM2GKWcDIBrY9Oh1RZC82spLYcmprS3rsYiD2TcfwSTbsZAHi8nNmYkLRvmKosB66Kvi51de3rZBkRi9aDoohOCnyWmJWebZBPTjiu3S8dEBtMKxsgCdLSU4ssjLlwXgZDZD";
 
 function EnviarMensajeWhastpapp(texto, numero) {
     texto = texto.toLowerCase();
@@ -64,6 +64,7 @@ function EnviarMensajeWhastpapp(texto, numero) {
             }
         });
     } else if (texto == "6") {
+        // Deberia hacer mas que solo un texto
         var data = JSON.stringify({
             "messaging_product": "whatsapp",
             "recipient_type": "individual",
@@ -75,6 +76,7 @@ function EnviarMensajeWhastpapp(texto, numero) {
             }
         });
     } else if (texto == "7") {
+        // Entregar el Horario (Tambien podria ser un PDF)
         var data = JSON.stringify({
             "messaging_product": "whatsapp",
             "recipient_type": "individual",
@@ -86,6 +88,7 @@ function EnviarMensajeWhastpapp(texto, numero) {
             }
         });
     } else if (texto.includes("gracias")) {
+        // Gracias :D
         var data = JSON.stringify({
             "messaging_product": "whatsapp",
             "recipient_type": "individual",
@@ -97,6 +100,7 @@ function EnviarMensajeWhastpapp(texto, numero) {
             }
         });
     } else if (texto.includes("adios") || texto.includes("bye") || texto.includes("nos vemos") || texto.includes("chao")) {
+        // Despedida :(
         var data = JSON.stringify({
             "messaging_product": "whatsapp",
             "recipient_type": "individual",
@@ -108,6 +112,7 @@ function EnviarMensajeWhastpapp(texto, numero) {
             }
         });
     } else {
+        // Menu de Opciones
         var data = JSON.stringify({
             "messaging_product": "whatsapp",
             "recipient_type": "individual",
