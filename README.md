@@ -17,6 +17,8 @@ Puedes clonar el repositorio utilizando git.
 Luego puedes utilizar la powershell de Windows para instalar las dependencias de Node.js
 ```bash
   npm install express
+```
+```bash
   npm Install
 ```
 Posterior a eso deberas instalar los comandos de Fly.io para poder hacer uso del servidor.
@@ -28,6 +30,8 @@ Ya finalizada la instalacion podras hacer uso de los comandos al reinicar la Ter
 Para subir su proyecto deberas utilizar dos comandos.
 ```bash
   flyctl launch
+```
+```bash
   flyctl deployd
 ```
 Recuerda cambiar a tus credenciales de META y Fly.io para no tener problemas pues los token caducan despues de 23 hrs.
