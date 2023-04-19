@@ -1,5 +1,5 @@
 const https = require("https");
-const MetaToken = "EAAIjvGFqjmQBAEyHcJhecztMBlnpBRGlmVc0JzoWV1kguPAksicsQ5kE4zMi15mMfnduvkpbBtdM2GKWcDIBrY9Oh1RZC82spLYcmprS3rsYiD2TcfwSTbsZAHi8nNmYkLRvmKosB66Kvi51de3rZBkRi9aDoohOCnyWmJWebZBPTjiu3S8dEBtMKxsgCdLSU4ssjLlwXgZDZD";
+const MetaToken = "METATOKENHERE";
 
 function EnviarMensajeWhastpapp(texto, numero) {
     texto = texto.toLowerCase();
