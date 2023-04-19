@@ -23,7 +23,7 @@ function EnviarMensajeWhastpapp(texto, numero) {
         body : data,
         headers : {
             "Content-Type" : "application/json",
-            Authorization :"Bearer EAAIjvGFqjmQBAOUGgwALDVmUCyd37j7wsgwu9rfRMwHNUWP8JUGmthK0iitQZAjzqgqqFi059ZCkZBXJ7bLR2NgztWlTMzLl1dALQGAi2kZCKBtVxCfeGXt6GTSR9zQ0MAaewTt4H3nsSIntFzcwtTxTn3MX05XcpZCpb5laht9FLPaxir4ZCAMTnZBN2KiJe8bZCybx3jrgCgZDZD"
+            Authorization :"Bearer INSERTARTOKENMETA"
         }
     };
 
