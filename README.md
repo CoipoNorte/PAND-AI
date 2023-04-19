@@ -41,7 +41,7 @@ Este documento fue realizado por uno de los programadores encargados de testear 
 
 [Documentation](https://docs.google.com/document/d/1vyC5cZOXWsAAHbduj-ibHxHdfdUy3SaB4C7dYt0avFg/edit?usp=sharing)
 
-## 
+## Autores
 
 - [@Christian Caceres](https://www.github.com/coiponorte)
 - [@Jose LeBlanc](https://www.github.com/)
