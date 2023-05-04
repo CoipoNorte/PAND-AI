@@ -46,4 +46,3 @@ Este documento fue realizado por uno de los programadores encargados de testear 
 - [@Christian Caceres](https://www.github.com/coiponorte)
 - [@Jose LeBlanc](https://www.github.com/)
 - [@Rodrigo Gonzales](https://www.github.com/)
-
